@@ -5,7 +5,7 @@ from bson import ObjectId
 app = Flask(__name__)
 
 
-client = MongoClient("mongodb://localhost:27017")
+client = MongoClient("mongodb+srv://220010052:KC09AxTI9vP555Vh@cluster0.fmo3c2z.mongodb.net/")
 db = client.certificates  
 collection = db.all_certificates  
 
