@@ -10,7 +10,7 @@ client = MongoClient("mongodb+srv://220010052:KC09AxTI9vP555Vh@cluster0.fmo3c2z.
 db = client.certificates  
 collection = db.all_certificates  
 
-base_url = "http://127.0.0.1:5000/verify?cert_id="
+base_url = "https://quamin.onrender.com/verify?cert_id="
 
 documents = collection.find()
 for doc in documents:
